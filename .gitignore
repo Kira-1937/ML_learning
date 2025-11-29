@@ -2,3 +2,61 @@
 conda_env_create/
 Machine-Learning-Algorithms-Materials/
 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.pkl
+*.pdf
+*.zip
+*.txt
+
+
+
+# Model files
+*.h5
+*.hdf5
+*.joblib
+*.sav
+*.pth
+*.pt
+
+# Large ML artifacts
+logs/
+outputs/
+runs/
+models/
+
+# Ignore kaggle dataset folders
+data/
+datasets/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Environment files (optional)
+.env
+*.env
+
+
+
